@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+<?php namespace ${1:App}\Controllers;
+
+use CodeIgniter\Controller;
+//use App\Models\NewsModel;
+
+class ${2:News} extends Controller
+{
+    public function index()
+    {
+        //\$model = new NewsModel();
+
+            \$data = [
+                //'news'  => $model->getNews(),
+                'title' => 'Some title',
+            ];
+
+         echo view('${3:news}/${4:index}', $data);        
+    }      
+}
+]]></content>
+	<tabTrigger>ci4c</tabTrigger>
+	<scope>source.php, text.html.basic, text.plain</scope>
+	<description>CI-Controller</description>
+</snippet>

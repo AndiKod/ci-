@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<?= \$this->extend('${1:layouts/main}') ?>
+
+
+<?= \$this->section('${2:content}') ?>    
+
+${3:content goes here}
+
+<?= \$this->endSection() ?>
+]]></content>
+	<tabTrigger>ci4vx</tabTrigger>
+	<scope>source.php, text.html.basic, text.plain</scope>
+	<description>CI-View</description>
+</snippet>

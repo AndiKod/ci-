@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<title>Layout</title>
+</head>
+<body>
+	<?= $this->renderSection('content') ?>
+</body>
+</html>
+]]></content>
+	<tabTrigger>ci4layout</tabTrigger>
+	<scope>source.php, text.html.basic, text.plain</scope>
+	<description>CI-Layout</description>
+</snippet>

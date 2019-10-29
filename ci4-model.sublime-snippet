@@ -1,0 +1,43 @@
+<snippet>
+	<content><![CDATA[
+<?php namespace ${1:App}\Models;
+
+use CodeIgniter\Model;
+
+class ${2:News}Model extends Model
+{
+    protected \$table = '${3:news}';  
+    protected \$primaryKey = '${4:id}';
+
+    protected $returnType = 'array';
+    protected $useSoftDeletes = false;
+
+    protected \$allowedFields = ['title', 'slug'];
+
+    // protected $useTimestamps = false;
+    // protected $createdField  = 'created_at';
+    // protected $updatedField  = 'updated_at';
+    // protected $deletedField  = 'deleted_at';
+
+    // protected $validationRules    = [];
+    // protected $validationMessages = [];
+    // protected $skipValidation     = false;
+
+    // Exemple function to retrive data
+    public function get${2:News}(\$slug = false)
+    {
+        if (\$slug === false)
+        {
+            return \$this->orderBy('id', 'desc')->findAll();  // Get all records
+        }
+
+        return \$this->asArray()
+                     ->where(['slug' => \$slug])
+                     ->first();                               // or Get one record
+    }
+}
+]]></content>
+	<tabTrigger>ci4m</tabTrigger>
+	<scope>source.php, text.html.basic, text.plain</scope>
+	<description>CI-Model</description>
+</snippet>
