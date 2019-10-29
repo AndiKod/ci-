@@ -3,7 +3,6 @@ SublimeText 3 - CodeIgniter4 & PHP Snippets
 Basic CI4 and PHP snippets to speed up dev.
 
 ![CI4](https://img.shields.io/badge/SublimeText-3-orange)
-
 ![CI4](https://img.shields.io/badge/CodeIgniter-v4-orange)
 
 
