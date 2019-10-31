@@ -36,6 +36,8 @@ CodeIgniter 4 Snippets, here we go...
  `[ci4c]` | Controller | *With data loading from the model and view rendering*
  `[ci4l]` | Layout | *Naked skeleton, to work with the view below*
  `[ci4v]` | Vue | *Extending the layout above ^^*
+ `--` | -- | --
+ `[ci4hw]` | HelloWorld Controller | *The most basic controller* 
 
 
 ### ``[ci4m]+Tab`` Model File

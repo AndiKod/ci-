@@ -1,0 +1,38 @@
+{
+    // scope:
+    //
+    // source.php constant.other
+    //   blacklist:
+    //     constant.other.class
+    // source.php support.function.magic
+
+    "scope": "source.php constant.other - constant.other.class, source.php support.function.magic",
+    "completions": [
+
+    // --- Routing ---    
+
+        {
+            "trigger":"ci4 routes",
+            "contents":"\\$routes->get('${1:url}', '${2:Controller::method}');"
+        }, 
+        {
+            "trigger":"ci4 routes:segment",
+            "contents":"\\$routes->get('${1:url}/(:segment)', '${2:Controller::method}/\\$1');"
+        },
+        {
+            "trigger":"ci4 routes:any",
+            "contents":"\\$routes->get('(:any)', '${1:Controller::method}/\\$1');"
+        }, 
+
+    // --- use Some\Namespace; --- 
+
+        {
+            "contents":"use CodeIgniter\\Controller;"
+        },
+        {
+            "trigger":"ci4 useModel",
+            "contents":"use App\\Models\\\\${1:Blog}Model;"
+        },  
+   
+    ]
+}

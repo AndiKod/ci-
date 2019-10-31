@@ -4,15 +4,15 @@
 
 use CodeIgniter\Controller;
 
-class ${2:News} extends Controller
+class ${2:Hello} extends Controller
 {
     public function index()
     {
-         echo 'Hello world!';        
+         echo 'Hello world!${0}';        
     }      
 }
 ]]></content>
-	<tabTrigger>ci-HelloWorld</tabTrigger>
+	<tabTrigger>ci4hw</tabTrigger>
 	<scope>source.php, text.html.basic, text.plain</scope>
-	<description>Controller</description>
+	<description>HelloWorld</description>
 </snippet>
