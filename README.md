@@ -54,8 +54,6 @@ The meaning and use of the config settings are in the docs at <a href="https://c
 
 The exemple function is from the official ["News section" tutorial](https://codeigniter4.github.io/userguide/tutorial/news_section.html).
 
-
-
 ```php
 <?php namespace ${1:App}\Models;
 
@@ -101,6 +99,13 @@ class ${2:News}Model extends Model
 
 *Snippet file: CI4-Snippets/ci4-model.sublime-snippet
 *Usual controllers location: App/Controllers/*
+
+#### Tab steps:
+- ${1:App}  : *In case you changed your app namespace.* 
+- ${2:News} : The name of your model file (always uppercase first letter).
+- ${3:news} : The corresponding database table (lowercase).
+- ${4:id}   : *In case you changed the primary_key*
+- ${0}      : The mouse cursor will end here after last tab. 
 
 Keeped (commented) the basic stuff needed to get data from a Model, 
 the exemple works with the News model from the official tutorial.
