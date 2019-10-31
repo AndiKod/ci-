@@ -32,15 +32,15 @@ CodeIgniter 4 Snippets, here we go...
 
 **Code** | **Renders** | **Tip**
 ---|---|---
- `[ci4m]` | Model | *Have inside the basics for db connection*
- `[ci4c]` | Controller | *With data loading from the model and view rendering*
- `[ci4l]` | Layout | *Naked skeleton, to work with the view below*
- `[ci4v]` | Vue | *Extending the layout above ^^*
- --- | --- | ---
- `[ci4hw]` | HelloWorld Controller | *The most basic controller* 
+ `[ci-m]` | Model | *Have inside the basics for db connection*
+ `[ci-c]` | Controller | *With data loading from the model and view rendering*
+ `[ci-l]` | Layout | *Naked skeleton, to work with the view below*
+ `[ci-v]` | Vue | *Extending the layout above ^^*
+ --- | - Controllers - | ---
+ `[ci-hw]` | HelloWorld Controller | *The most basic controller* 
 
 
-### ``[ci4m]+Tab`` Model File
+### ``[ci-m]+Tab`` Model File
 
 Snippet file: *CI4-Snippets/ci4-model.sublime-snippet*
 
@@ -98,7 +98,7 @@ class ${2:News}Model extends Model
 ```
 
 
-### ``[ci4c]+Tab`` Controller File
+### ``[ci4-c]+Tab`` Controller File
 
 Snippet file: *CI4-Snippets/ci4-model.sublime-snippet*
 
@@ -141,7 +141,7 @@ class ${2:News} extends Controller
 
 
 
-### ``[ci4l]+Tab`` Layouts
+### ``[ci-l]+Tab`` Layouts
 
 Snippet file: *CI4-Snippets/ci4-layout.sublime-snippet*
 
@@ -163,7 +163,7 @@ acting like a placeholder into the views extended from the layout.
 </html>
 ```
 
-### ```[ci4v]+Tab``` View
+### ```[ci-v]+Tab``` View
 
 Snippet file: *CI4-Snippets/ci4-view.sublime-snippet*
 

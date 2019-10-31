@@ -20,7 +20,7 @@ class ${2:News} extends Controller
     }      
 }
 ]]></content>
-	<tabTrigger>ci4c</tabTrigger>
+	<tabTrigger>ci-c</tabTrigger>
 	<scope>source.php, text.html.basic, text.plain</scope>
 	<description>CI4 Controller</description>
 </snippet>

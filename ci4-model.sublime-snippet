@@ -37,7 +37,7 @@ class ${2:News}Model extends Model
     }
 }
 ]]></content>
-	<tabTrigger>ci4m</tabTrigger>
+	<tabTrigger>ci-m</tabTrigger>
 	<scope>source.php, text.html.basic, text.plain</scope>
 	<description>CI4 Model</description>
 </snippet>

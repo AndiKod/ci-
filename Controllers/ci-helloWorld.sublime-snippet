@@ -12,7 +12,7 @@ class ${2:Hello} extends Controller
     }      
 }
 ]]></content>
-	<tabTrigger>ci4hw</tabTrigger>
+	<tabTrigger>ci-hw</tabTrigger>
 	<scope>source.php, text.html.basic, text.plain</scope>
 	<description>HelloWorld</description>
 </snippet>

@@ -27,12 +27,39 @@
     // --- use Some\Namespace; --- 
 
         {
+            "trigger":"useCI",
             "contents":"use CodeIgniter\\Controller;"
         },
         {
-            "trigger":"ci4 useModel",
+            "trigger":"ci-useModel",
             "contents":"use App\\Models\\\\${1:Blog}Model;"
-        },  
+        }, 
+
+
+    // --- BASICS ---    
+        {
+            "trigger":"t",
+            "contents":"\\$this->"
+        },
+        {
+            "trigger":"t-req",
+            "contents":"\\$this->request"
+        },
+        {
+            "trigger":"t-res",
+            "contents":"\\$this->response"
+        },
+        {
+            "trigger":"t-log",
+            "contents":"\\$this->logger"
+        }, 
+
+    // --- Loading Stuff ---
+
+        {
+            "trigger":"ci-helpers",
+            "contents":"protected \\$helpers = ['${1:url}'];"
+        },
    
     ]
 }
