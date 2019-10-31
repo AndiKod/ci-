@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+<?php namespace ${1:App}\Controllers;
+
+use CodeIgniter\Controller;
+
+class ${2:News} extends Controller
+{
+    public function index()
+    {
+         echo 'Hello world!';        
+    }      
+}
+]]></content>
+	<tabTrigger>ci-HelloWorld</tabTrigger>
+	<scope>source.php, text.html.basic, text.plain</scope>
+	<description>Controller</description>
+</snippet>

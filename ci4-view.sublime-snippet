@@ -9,7 +9,7 @@ ${3:content goes here}
 
 <?= \$this->endSection() ?>
 ]]></content>
-	<tabTrigger>ci4vx</tabTrigger>
+	<tabTrigger>ci4v</tabTrigger>
 	<scope>source.php, text.html.basic, text.plain</scope>
-	<description>CI-View</description>
+	<description>CI4 View</description>
 </snippet>

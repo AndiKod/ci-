@@ -1,9 +1,17 @@
-SublimeText 3 - CodeIgniter4 & PHP Snippets
-===========================================
-Basic CI4 and PHP snippets to speed up dev.
 
-![CI4](https://img.shields.io/badge/SublimeText-3-orange)
+<p align="center">
+  <img width="225" height="225" src="https://forum.codeigniter.com/attachment.php?aid=1622">
+
+CodeIgniter4 Snippets
+===========================================
+For Sublime Text, VS Code et Atom
+</p>
+
+
+
 ![CI4](https://img.shields.io/badge/CodeIgniter-v4-orange)
+![CI4](https://img.shields.io/badge/SublimeText-3-orange)
+
 
 
 
@@ -16,14 +24,15 @@ When i'll add more snippets, the repo will be proposed as a Sublime Package, but
 
 
 
-Code Igniter 4 Snippets
+CodeIgniter 4 Snippets
 --------
 
-### [ci4m]+Tab Model File
+### ``[ci4m]+Tab`` Model File
 
-*Usual location: App/Models*
+*Snippet file: CI4-Snippets/ci4-model.sublime-snippet
+*Usual models location: App/Models/*
 
-The meaning and use of the config settings are in the docs at [CI4 Docs > Modeling Data > Using CodeIgniter's Model](https://codeigniter4.github.io/userguide/models/model.html)
+The meaning and use of the config settings are in the docs at <a href="https://codeigniter4.github.io/userguide/models/model.html" target="_blank">CI4 Docs> Modeling Data> Using CodeIgniter's Model</a>
 
 The exemple function is from the official ["News section" tutorial](https://codeigniter4.github.io/userguide/tutorial/news_section.html).
 
@@ -67,11 +76,12 @@ class ${2:News}Model extends Model
 ```
 
 
-### [ci4c]+Tab Controller File
+### ``[ci4c]+Tab`` Controller File
 
-*Usual location: App/Controllers*
+*Snippet file: CI4-Snippets/ci4-model.sublime-snippet
+*Usual controllers location: App/Controllers/*
 
-Keeped the basic stuff (commented) needed to get data from a Model, 
+Keeped (commented) the basic stuff needed to get data from a Model, 
 the exemple works with the News model from the official tutorial.
 
 Read the [Controllers Doc](https://codeigniter4.github.io/userguide/incoming/controllers.html) for more details.
@@ -100,9 +110,10 @@ class ${2:News} extends Controller
 
 
 
-### [ci4layout] Layouts
+### ``[ci4l]+Tab`` Layouts
 
-*Usual location: something like App/Views/Layouts*
+*Snippet file: CI4-Snippets/ci4-layout.sublime-snippet
+*Usual layouts location: App/Views/Layouts/*
 
 Basically an HTML skeleton with at least one 'section' inside, 
 acting like a placeholder into the views extended from the layout.
@@ -120,9 +131,10 @@ acting like a placeholder into the views extended from the layout.
 </html>
 ```
 
-### [ci4vx] View (extending layout)
+### ``[ci4v]+Tab`` View (extending layout)
 
-*Usual location: something like App/Views*
+*Snippet file: CI4-Snippets/ci4-view.sublime-snippet
+*Usual models location: App/Views/*
 
 Filling up the sections defined into the layout.
 

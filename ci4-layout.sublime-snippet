@@ -11,7 +11,7 @@
 </body>
 </html>
 ]]></content>
-	<tabTrigger>ci4layout</tabTrigger>
+	<tabTrigger>ci4l</tabTrigger>
 	<scope>source.php, text.html.basic, text.plain</scope>
-	<description>CI-Layout</description>
+	<description>CI4 Layout</description>
 </snippet>
