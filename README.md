@@ -1,7 +1,7 @@
 
 <p align="center">
   <br>
-  <img width="400" src="./ci.png" alt="logo of the repository">
+  ![CI](./ci.png "CI")
   <br>
   <br>
 </p>
@@ -22,14 +22,30 @@ For Sublime Text 3
 Install
 -------
 
+---
+
 ### Sublime Text - Package Control or Clone/Download
 
-When i'll add more snippets, the repo will be proposed as a Sublime Package, but until then you can clone or download it and place the folder inside '**Sublime Text 3\Packages\User**' folder.
+When i'll add more snippets, the repo will be proposed as a Sublime Package, but until then you can clone or download it and place the folder inside '**SublimeText3\Packages\User**' folder.
 
 
 
-CodeIgniter 4 Snippets
+CodeIgniter 4 Snippets, here we go...
 --------
+---
+
+*Code* | *Renders* | *Tip*
+---|---|---
+ `[ci4m]` | Model | **Have inside the basics for db connection**
+
+ `[ci4c]` | Controller | **With data loading from the model and view rendering**
+
+ `[ci4l]` | Layout | **Naked skeleton, to work with the view below**
+
+ `[ci4v]` | Vue | **Extending the layout above ^^**
+
+
+---
 
 ### ``[ci4m]+Tab`` Model File
 
