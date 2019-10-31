@@ -40,8 +40,13 @@ CodeIgniter 4 Snippets, here we go...
 
 ### ``[ci4m]+Tab`` Model File
 
-*Snippet file: CI4-Snippets/ci4-model.sublime-snippet
-*Usual models location: App/Models/*
+Snippet file: *CI4-Snippets/ci4-model.sublime-snippet*
+
+Usual models location: *App/Models/*
+
+
+
+The meaning and use of the config settings are in the docs at <a href="https://codeigniter4.github.io/userguide/models/model.html" target="_blank">CI4 Docs> Modeling Data> Using CodeIgniter's Model</a> The exemple function is from the official ["News section" tutorial](https://codeigniter4.github.io/userguide/tutorial/news_section.html).
 
 #### Tab steps:
 - ${1:App}  : *In case you changed your app namespace.* 
@@ -49,10 +54,6 @@ CodeIgniter 4 Snippets, here we go...
 - ${3:news} : The corresponding database table (lowercase).
 - ${4:id}   : *In case you changed the primary_key*
 - ${0}      : The mouse cursor will end here after last tab. 
-
-The meaning and use of the config settings are in the docs at <a href="https://codeigniter4.github.io/userguide/models/model.html" target="_blank">CI4 Docs> Modeling Data> Using CodeIgniter's Model</a>
-
-The exemple function is from the official ["News section" tutorial](https://codeigniter4.github.io/userguide/tutorial/news_section.html).
 
 ```php
 <?php namespace ${1:App}\Models;
@@ -97,8 +98,15 @@ class ${2:News}Model extends Model
 
 ### ``[ci4c]+Tab`` Controller File
 
-*Snippet file: CI4-Snippets/ci4-model.sublime-snippet
-*Usual controllers location: App/Controllers/*
+Snippet file: *CI4-Snippets/ci4-model.sublime-snippet*
+
+Usual controllers location: *App/Controllers/*
+
+
+Keeped (commented) the basic stuff needed to get data from a Model, 
+the exemple works with the News model from the official tutorial.
+
+Read the [Controllers Doc](https://codeigniter4.github.io/userguide/incoming/controllers.html) for more details.
 
 #### Tab steps:
 - ${1:App}  : *In case you changed your app namespace.* 
@@ -106,11 +114,6 @@ class ${2:News}Model extends Model
 - ${3:news} : The corresponding database table (lowercase).
 - ${4:id}   : *In case you changed the primary_key*
 - ${0}      : The mouse cursor will end here after last tab. 
-
-Keeped (commented) the basic stuff needed to get data from a Model, 
-the exemple works with the News model from the official tutorial.
-
-Read the [Controllers Doc](https://codeigniter4.github.io/userguide/incoming/controllers.html) for more details.
 
 ```php
 <?php namespace ${1:App}\Controllers;
