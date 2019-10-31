@@ -27,7 +27,7 @@
     // --- use Some\Namespace; --- 
 
         {
-            "trigger":"ci-useCI",
+            "trigger":"ci-useController",
             "contents":"use CodeIgniter\\Controller;"
         },
         {
