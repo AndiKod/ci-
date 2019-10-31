@@ -34,14 +34,8 @@ CodeIgniter 4 Snippets, here we go...
 **Code** | **Renders** | **Tip**
 ---|---|---
  `[ci4m]` | Model | *Have inside the basics for db connection*
- ---|---|---
-
  `[ci4c]` | Controller | *With data loading from the model and view rendering*
- ---|---|---
-
  `[ci4l]` | Layout | *Naked skeleton, to work with the view below*
- ---|---|---
-
  `[ci4v]` | Vue | *Extending the layout above ^^*
 
 
