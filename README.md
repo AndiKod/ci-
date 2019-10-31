@@ -3,9 +3,9 @@
   ![CI](./SublimeIgniter.png "CI")
 
 
-CodeIgniter v.4 Snippets
-========================
-For Sublime Text 3
+Sublime Snippets for CodeIgniter 4
+==================================
+
 
 
 
