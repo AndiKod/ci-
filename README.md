@@ -27,7 +27,7 @@ When i'll add more snippets, the repo will be proposed as a Sublime Package, but
 
 
 
-CodeIgniter 4 Snippets, here we go...
+CI- CodeIgniter4, here we go...
 --------
 
 **Code** | **Renders** | **Tip**
