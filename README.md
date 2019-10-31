@@ -43,12 +43,12 @@ CodeIgniter 4 Snippets, here we go...
 *Snippet file: CI4-Snippets/ci4-model.sublime-snippet
 *Usual models location: App/Models/*
 
-####Tab steps:
-${1:App}  : *In case you changed your app namespace.* 
-${2:News} : The name of your model file (always uppercase first letter).
-${3:news} : The corresponding database table (lowercase).
-${4:id}   : *In case you changed the primary_key*
-${0}      : The mouse cursor will end here after last tab. 
+#### Tab steps:
+- ${1:App}  : *In case you changed your app namespace.* 
+- ${2:News} : The name of your model file (always uppercase first letter).
+- ${3:news} : The corresponding database table (lowercase).
+- ${4:id}   : *In case you changed the primary_key*
+- ${0}      : The mouse cursor will end here after last tab. 
 
 The meaning and use of the config settings are in the docs at <a href="https://codeigniter4.github.io/userguide/models/model.html" target="_blank">CI4 Docs> Modeling Data> Using CodeIgniter's Model</a>
 
