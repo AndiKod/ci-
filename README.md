@@ -36,19 +36,19 @@ CodeIgniter 4 Snippets, here we go...
  `[ci-c]+Tab` | Controller | *With data loading from the model and view rendering*
  `[ci-l]+Tab` | Layout | *Naked skeleton, to work with the view below*
  `[ci-v]+Tab` | Vue | *Extending the layout above ^^*
- --- | - Controllers - | ---
+ --- | **- Controllers -** | ---
  `[ci-hw]+Tab` | HelloWorld Controller | *The most basic controller* 
- --- | - Some Basics - | --- 
+ --- | **- Some Basics -** | --- 
  `[ci-pubF]+Tab` | public function | *For the methods within Controllers, and more*
  `[ci-ptcF]+Tab` | protected function | *For the private logic. See Controllers doc.*
- --- | - Routing - | ---
+ --- | **- Routing -** | ---
  `[ci-routesGrp]+Tab` | route Group | *Nesting routes that share the same initial segment.*
  `[ci-routes]+Tab` | simple route | *Like the 'about' route, loading the 'About' Controller*
  `[ci-routesSeg]+Tab` | (:segment) route | *Great for single posts. Match first segment.*
  `[ci-RoutesAny]+Tab` | (:any) route | *Will match everything from the URI*
  `[ci-RoutesNum]+Tab` | (:num) route | *When expecting a numeric segment like xByID/$id*
  `[ci-RoutesAlpha]+Tab` | (:alpha) route | *No numbers*
- `[ci-RoutesAlNum]+Tab` | (:alphanum) route | *Letters and|or numbers*
+ `[ci-RoutesAlNum]+Tab` | (:alphanum) route | *Letters and/or numbers*
  `[ci-RoutesHash]+Tab` | (:hash) route | *See the Models Docs for the usage*
  
 
