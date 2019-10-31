@@ -1,6 +1,6 @@
 
 
-  ![CI](./ci.png "CI")
+  ![CI](./SublimeIgniter.png "CI")
 
 
 CodeIgniter v.4 Snippets
@@ -41,7 +41,6 @@ CodeIgniter 4 Snippets, here we go...
 ### ``[ci4m]+Tab`` Model File
 
 Snippet file: *CI4-Snippets/ci4-model.sublime-snippet*
-
 Usual models location: *App/Models/*
 
 
@@ -50,7 +49,7 @@ The meaning and use of the config settings are in the docs at <a href="https://c
 
 #### Tab steps:
 - ${1:App}  : *In case you changed your app namespace.* 
-- ${2:News} : The name of your model file (always uppercase first letter).
+- ${2:News} : The name of your Model file (always uppercase first letter).
 - ${3:news} : The corresponding database table (lowercase).
 - ${4:id}   : *In case you changed the primary_key*
 - ${0}      : The mouse cursor will end here after last tab. 
@@ -99,7 +98,6 @@ class ${2:News}Model extends Model
 ### ``[ci4c]+Tab`` Controller File
 
 Snippet file: *CI4-Snippets/ci4-model.sublime-snippet*
-
 Usual controllers location: *App/Controllers/*
 
 
@@ -110,7 +108,7 @@ Read the [Controllers Doc](https://codeigniter4.github.io/userguide/incoming/con
 
 #### Tab steps:
 - ${1:App}  : *In case you changed your app namespace.* 
-- ${2:News} : The name of your model file (always uppercase first letter).
+- ${2:News} : The name of your Controller file (always uppercase first letter).
 - ${3:news} : The corresponding database table (lowercase).
 - ${4:id}   : *In case you changed the primary_key*
 - ${0}      : The mouse cursor will end here after last tab. 
