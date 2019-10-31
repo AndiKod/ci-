@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\$data = [
+    'title' => 'Some title',
+];
+]]></content>
+	<tabTrigger>ci-data</tabTrigger>
+	<scope>source.php, text.html.basic, text.plain</scope>
+	<description></description>
+</snippet>

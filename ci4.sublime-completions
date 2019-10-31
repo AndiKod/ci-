@@ -12,53 +12,61 @@
     // --- Routing ---    
 
         {
-            "trigger":"ci4 routes",
+            "trigger":"ci-routes",
             "contents":"\\$routes->get('${1:url}', '${2:Controller::method}');"
         }, 
         {
-            "trigger":"ci4 routes:segment",
+            "trigger":"ci-routes:segment",
             "contents":"\\$routes->get('${1:url}/(:segment)', '${2:Controller::method}/\\$1');"
         },
         {
-            "trigger":"ci4 routes:any",
+            "trigger":"ci-routes:any",
             "contents":"\\$routes->get('(:any)', '${1:Controller::method}/\\$1');"
         }, 
 
     // --- use Some\Namespace; --- 
 
         {
-            "trigger":"useCI",
+            "trigger":"ci-useCI",
             "contents":"use CodeIgniter\\Controller;"
         },
         {
             "trigger":"ci-useModel",
-            "contents":"use App\\Models\\\\${1:Blog}Model;"
+            "contents":"use App\\Models\\\\${1:Foo}Model;"
         }, 
 
 
     // --- BASICS ---    
         {
-            "trigger":"t",
+            "trigger":"ci-t",
             "contents":"\\$this->"
         },
         {
-            "trigger":"t-req",
+            "trigger":"ci-t-req",
             "contents":"\\$this->request"
         },
         {
-            "trigger":"t-res",
+            "trigger":"ci-t-res",
             "contents":"\\$this->response"
         },
         {
-            "trigger":"t-log",
+            "trigger":"ci-t-log",
             "contents":"\\$this->logger"
         }, 
 
-    // --- Loading Stuff ---
+    // --- Loading Stuff inside a Controller ---
 
         {
             "trigger":"ci-helpers",
             "contents":"protected \\$helpers = ['${1:url}'];"
+        },
+        {
+            "trigger":"ci-newModel",
+            "contents":"\\$model = new ${1:Foo}Model();"
+        },
+        {
+            "trigger":"ci-getModel",
+            "contents":"\\$model->get${1:Foo}()"
         },
    
     ]

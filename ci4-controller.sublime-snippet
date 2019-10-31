@@ -13,7 +13,7 @@ class ${2:News} extends Controller
 
             \$data = [
                 'title' => 'Some title',
-                //'news'  => $model->getNews(),  
+                //'news'  => \$model->getNews(),  
             ];
 
          echo view('${3:news}/${4:index}', $data);        

@@ -3,7 +3,7 @@
   ![CI](./SublimeIgniter.png "CI")
 
 
-Sublime Snippets for CodeIgniter 4
+CI- SublimeSnippets for CodeIgniter4
 ==================================
 
 
@@ -32,12 +32,12 @@ CodeIgniter 4 Snippets, here we go...
 
 **Code** | **Renders** | **Tip**
 ---|---|---
- `[ci-m]` | Model | *Have inside the basics for db connection*
- `[ci-c]` | Controller | *With data loading from the model and view rendering*
- `[ci-l]` | Layout | *Naked skeleton, to work with the view below*
- `[ci-v]` | Vue | *Extending the layout above ^^*
+ `[ci-m]+Tab` | Model | *Have inside the basics for db connection*
+ `[ci-c]+Tab` | Controller | *With data loading from the model and view rendering*
+ `[ci-l]+Tab` | Layout | *Naked skeleton, to work with the view below*
+ `[ci-v]+Tab` | Vue | *Extending the layout above ^^*
  --- | - Controllers - | ---
- `[ci-hw]` | HelloWorld Controller | *The most basic controller* 
+ `[ci-hw]+Tab` | HelloWorld Controller | *The most basic controller* 
 
 
 ### ``[ci-m]+Tab`` Model File
