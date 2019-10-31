@@ -1,11 +1,11 @@
 
 <p align="center">
   <img width="225" height="225" src="https://forum.codeigniter.com/attachment.php?aid=1622">
-
+</p>
 CodeIgniter4 Snippets
 ===========================================
 For Sublime Text, VS Code et Atom
-</p>
+
 
 
 
@@ -131,7 +131,7 @@ acting like a placeholder into the views extended from the layout.
 </html>
 ```
 
-### ``[ci4v]+Tab`` View (extending layout)
+### ```[ci4v]+Tab``` View
 
 *Snippet file: CI4-Snippets/ci4-view.sublime-snippet
 *Usual models location: App/Views/*
