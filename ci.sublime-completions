@@ -66,8 +66,21 @@
         },
         {
             "trigger":"ci-getModel",
-            "contents":"\\$model->get${1:Foo}()"
+            "contents":"\\$model->get${1:Foo}();"
         },
+        {
+            "trigger":"ci-loadParser",
+            "contents":"\\$parser = \\Config\\Services::parser();"
+        },
+        {
+            "trigger":"ci-loadPView",
+            "contents":"echo \\$parser->setData(\\$data)${0}->render('${1:template}');"
+        },
+
+
+
+        
+
    
     ]
 }

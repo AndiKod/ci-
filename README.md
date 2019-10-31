@@ -37,10 +37,14 @@ CI- CodeIgniter4, here we go...
  `[ci-l]+Tab` | Layout | *Naked skeleton, to work with the view below*
  `[ci-v]+Tab` | Vue | *Extending the layout above ^^*
  --- | **- Controllers -** | ---
- `[ci-hw]+Tab` | HelloWorld Controller | *The most basic controller* 
- --- | **- Some Basics -** | --- 
+ `[ci-hw]+Tab` | HelloWorld Controller | *The most basic controller, as a starting point.* 
  `[ci-pubF]+Tab` | public function | *For the methods within Controllers, and more*
  `[ci-ptcF]+Tab` | protected function | *For the private logic. See Controllers doc.*
+ `[ci-tReq]+Tab` | $this->request | *...*
+ `[ci-tRsp]+Tab` | $this->response | *...*
+ `[ci-tLog]+Tab` | $this->logger | *...*
+ --- | **- Some Basics -** | --- 
+ `[ci-t]+Tab` | $this-> | *...preaty self explanatory.*
  --- | **- Routing -** | ---
  `[ci-routesGrp]+Tab` | route Group | *Nesting routes that share the same initial segment.*
  `[ci-routes]+Tab` | simple route | *Like the 'about' route, loading the 'About' Controller*

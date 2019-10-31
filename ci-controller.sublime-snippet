@@ -7,6 +7,8 @@ use CodeIgniter\Controller;
 
 class ${2:News} extends Controller
 {
+    //\$parser = \Config\Services::parser();
+
     public function index()
     {
         //\$model = new NewsModel();
@@ -16,7 +18,10 @@ class ${2:News} extends Controller
                 //'news'  => \$model->getNews(),  
             ];
 
-         echo view('${3:news}/${4:index}', $data);        
+        echo view('${3:news_template}', \$data);  /* PHP Templates <?= title ?> */
+
+        //echo \$parser->setData($data)          // Parser Template {title}
+        //     ->render('news_template');      
     }      
 }
 ]]></content>
