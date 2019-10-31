@@ -29,7 +29,6 @@ When i'll add more snippets, the repo will be proposed as a Sublime Package, but
 
 CodeIgniter 4 Snippets, here we go...
 --------
----
 
 **Code** | **Renders** | **Tip**
 ---|---|---
@@ -39,16 +38,23 @@ CodeIgniter 4 Snippets, here we go...
  `[ci4v]` | Vue | *Extending the layout above ^^*
 
 
----
-
 ### ``[ci4m]+Tab`` Model File
 
 *Snippet file: CI4-Snippets/ci4-model.sublime-snippet
 *Usual models location: App/Models/*
 
+####Tab steps:
+${1:App}  : *In case you changed your app namespace.* 
+${2:News} : The name of your model file (always uppercase first letter).
+${3:news} : The corresponding database table (lowercase).
+${4:id}   : *In case you changed the primary_key*
+${0}      : The mouse cursor will end here after last tab. 
+
 The meaning and use of the config settings are in the docs at <a href="https://codeigniter4.github.io/userguide/models/model.html" target="_blank">CI4 Docs> Modeling Data> Using CodeIgniter's Model</a>
 
 The exemple function is from the official ["News section" tutorial](https://codeigniter4.github.io/userguide/tutorial/news_section.html).
+
+
 
 ```php
 <?php namespace ${1:App}\Models;
@@ -58,7 +64,7 @@ use CodeIgniter\Model;
 class ${2:News}Model extends Model
 {
     protected \$table = '${3:news}';  
-    protected \$primaryKey = 'id';
+    protected \$primaryKey = '${4:id}';
 
     protected $returnType = 'array';
     protected $useSoftDeletes = false;
@@ -83,7 +89,8 @@ class ${2:News}Model extends Model
         }
         return \$this->asArray()
                      ->where(['slug' => \$slug])
-                     ->first();                               // or Get one record
+                     ->first();
+        ${0}                                            // or Get one record
     }
 
 }
