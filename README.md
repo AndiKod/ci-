@@ -1,10 +1,7 @@
 
-<p align="center">
-  <br>
+
   ![CI](./ci.png "CI")
-  <br>
-  <br>
-</p>
+
 
 CodeIgniter v.4 Snippets
 ========================
@@ -34,15 +31,18 @@ CodeIgniter 4 Snippets, here we go...
 --------
 ---
 
-*Code* | *Renders* | *Tip*
+**Code** | **Renders** | **Tip**
 ---|---|---
- `[ci4m]` | Model | **Have inside the basics for db connection**
+ `[ci4m]` | Model | *Have inside the basics for db connection*
+ ---|---|---
 
- `[ci4c]` | Controller | **With data loading from the model and view rendering**
+ `[ci4c]` | Controller | *With data loading from the model and view rendering*
+ ---|---|---
 
- `[ci4l]` | Layout | **Naked skeleton, to work with the view below**
+ `[ci4l]` | Layout | *Naked skeleton, to work with the view below*
+ ---|---|---
 
- `[ci4v]` | Vue | **Extending the layout above ^^**
+ `[ci4v]` | Vue | *Extending the layout above ^^*
 
 
 ---
