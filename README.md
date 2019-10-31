@@ -41,6 +41,7 @@ CodeIgniter 4 Snippets, here we go...
 ### ``[ci4m]+Tab`` Model File
 
 Snippet file: *CI4-Snippets/ci4-model.sublime-snippet*
+
 Usual models location: *App/Models/*
 
 
@@ -98,6 +99,7 @@ class ${2:News}Model extends Model
 ### ``[ci4c]+Tab`` Controller File
 
 Snippet file: *CI4-Snippets/ci4-model.sublime-snippet*
+
 Usual controllers location: *App/Controllers/*
 
 
@@ -139,8 +141,9 @@ class ${2:News} extends Controller
 
 ### ``[ci4l]+Tab`` Layouts
 
-*Snippet file: CI4-Snippets/ci4-layout.sublime-snippet
-*Usual layouts location: App/Views/Layouts/*
+Snippet file: *CI4-Snippets/ci4-layout.sublime-snippet*
+
+Usual layouts location: *App/Views/Layouts/*
 
 Basically an HTML skeleton with at least one 'section' inside, 
 acting like a placeholder into the views extended from the layout.
@@ -160,8 +163,9 @@ acting like a placeholder into the views extended from the layout.
 
 ### ```[ci4v]+Tab``` View
 
-*Snippet file: CI4-Snippets/ci4-view.sublime-snippet
-*Usual models location: App/Views/*
+Snippet file: *CI4-Snippets/ci4-view.sublime-snippet*
+
+Usual models location: *App/Views/*
 
 Filling up the sections defined into the layout.
 
