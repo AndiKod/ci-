@@ -1,10 +1,14 @@
 
 <p align="center">
-  <img width="225" height="225" src="https://forum.codeigniter.com/attachment.php?aid=1622">
+  <br>
+  <img width="400" src="./ci.png" alt="logo of the repository">
+  <br>
+  <br>
 </p>
-CodeIgniter4 Snippets
-===========================================
-For Sublime Text, VS Code et Atom
+
+CodeIgniter v.4 Snippets
+========================
+For Sublime Text 3
 
 
 
