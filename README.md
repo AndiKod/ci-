@@ -47,8 +47,8 @@ CI- CodeIgniter4, here we go...
  `[ci-new-Model]+Tab` | Create the instance... | *Can be done if we first `ci-use-Model`*
  `[ci-get-Model]+Tab` | ...grab the Data. | *Create the array with the data for the 'loop'*
  `[ci-load-Parser]+Tab` | Makes the Parser available | *Captain Obvious striked again.*
- `[ci-load-PView]+Tab` | Renders a 'parsed' View | *Where we echo variables as <?= $title ?>*
- `[ci-echo-View]+Tab` | Renders a PHP View | *Where we echo variables as {title}*
+ `[ci-load-PView]+Tab` | Renders a 'parsed' View | *Where we echo variables as {title}*
+ `[ci-echo-View]+Tab` | Renders a PHP View | *Where we echo variables as <?= $title ?>*
  --- | **- Some Basics -** | --- 
  `[ci-t]+Tab` | $this-> | *...preaty self explanatory.*
  --- | **- Routing -** | ---
