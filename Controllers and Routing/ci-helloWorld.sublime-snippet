@@ -8,8 +8,8 @@ class ${2:Hello} extends Controller
 {
     public function index()
     {
-         echo 'Hello world!${0}';        
-    }      
+         echo 'Hello world!';        
+    }${0}      
 }
 ]]></content>
 	<tabTrigger>ci-hw</tabTrigger>

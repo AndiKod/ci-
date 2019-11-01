@@ -1,11 +1,11 @@
 <snippet>
-	<content><![CDATA[
+    <content><![CDATA[
 public function ${1:name}(${2})
 {
     ${0}
 }
 ]]></content>
-	<tabTrigger>ci-pubF</tabTrigger>
-	<scope>source.php, text.html.basic, text.plain</scope>
-	<description></description>
+    <tabTrigger>ci-pubF</tabTrigger>
+    <scope>source.php, text.html.basic, text.plain</scope>
+    <description></description>
 </snippet>

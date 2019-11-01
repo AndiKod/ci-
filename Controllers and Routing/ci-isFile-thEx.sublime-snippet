@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+if ( ! is_file(APPPATH.'/Views/${1:pages/}'.\$page.'.php'))
+{
+    // Whoops, we don't have a page for that!
+    throw new \CodeIgniter\Exceptions\PageNotFoundException(\$page);
+}
+]]></content>
+	<tabTrigger>ci-isFile-thEx</tabTrigger>
+	<scope>source.php, text.html.basic, text.plain</scope>
+	<description></description>
+</snippet>

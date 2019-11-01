@@ -36,13 +36,19 @@ CI- CodeIgniter4, here we go...
  `[ci-c]+Tab` | Controller | *With data loading from the model and view rendering*
  `[ci-l]+Tab` | Layout | *Naked skeleton, to work with the view below*
  `[ci-v]+Tab` | Vue | *Extending the layout above ^^*
- --- | **- Controllers -** | ---
+ --- | **- inside Controllers -** | ---
  `[ci-hw]+Tab` | HelloWorld Controller | *The most basic controller, as a starting point.* 
  `[ci-pubF]+Tab` | public function | *For the methods within Controllers, and more*
  `[ci-ptcF]+Tab` | protected function | *For the private logic. See Controllers doc.*
  `[ci-tReq]+Tab` | $this->request | *...*
  `[ci-tRsp]+Tab` | $this->response | *...*
  `[ci-tLog]+Tab` | $this->logger | *...*
+ `[ci-load-helpers]+Tab` | Load needed helpers | *Better to load them once in a BaseController*
+ `[ci-new-Model]+Tab` | Create the instance... | *Can be done if we first `ci-use-Model`*
+ `[ci-get-Model]+Tab` | ...grab the Data. | *Create the array with the data for the 'loop'*
+ `[ci-load-Parser]+Tab` | Makes the Parser available | *Captain Obvious striked again.*
+ `[ci-load-PView]+Tab` | Renders a 'parsed' View | *Where we echo variables as <?= $title ?>*
+ `[ci-echo-View]+Tab` | Renders a PHP View | *Where we echo variables as {title}*
  --- | **- Some Basics -** | --- 
  `[ci-t]+Tab` | $this-> | *...preaty self explanatory.*
  --- | **- Routing -** | ---

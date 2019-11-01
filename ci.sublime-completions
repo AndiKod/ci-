@@ -27,11 +27,11 @@
     // --- use Some\Namespace; --- 
 
         {
-            "trigger":"ci-useController",
+            "trigger":"ci-use-Controller",
             "contents":"use CodeIgniter\\Controller;"
         },
         {
-            "trigger":"ci-useModel",
+            "trigger":"ci-use-Model",
             "contents":"use App\\Models\\\\${1:Foo}Model;"
         }, 
 
@@ -58,23 +58,27 @@
 
         {
             "trigger":"ci-helpers",
-            "contents":"protected \\$helpers = ['${1:url}'];"
+            "contents":"protected \\$helpers = ['${1:url}'];${0}"
         },
         {
-            "trigger":"ci-newModel",
-            "contents":"\\$model = new ${1:Foo}Model();"
+            "trigger":"ci-new-Model",
+            "contents":"\\$model = new ${1:Foo}Model();${0}"
         },
         {
-            "trigger":"ci-getModel",
-            "contents":"\\$model->get${1:Foo}();"
+            "trigger":"ci-get-Model",
+            "contents":"\\$model->get${1:Foo}();${0}"
         },
         {
-            "trigger":"ci-loadParser",
-            "contents":"\\$parser = \\Config\\Services::parser();"
+            "trigger":"ci-load-Parser",
+            "contents":"\\$parser = \\Config\\Services::parser();${0}"
         },
         {
-            "trigger":"ci-loadPView",
-            "contents":"echo \\$parser->setData(\\$data)${0}->render('${1:template}');"
+            "trigger":"ci-load-PView",
+            "contents":"echo \\$parser->setData(\\$data)${0}->render('${1:template}');${0}"
+        },
+        {
+            "trigger":"ci-echo-View",
+            "contents":"echo view('${1:template}', \\$data);${0}"
         },
 
 
