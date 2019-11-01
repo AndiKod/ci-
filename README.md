@@ -46,6 +46,8 @@ CI- CodeIgniter4, here we go...
  `[ci-load-helpers]+Tab` | Load needed helpers | *Better to load them once in a BaseController*
  `[ci-new-Model]+Tab` | Create the instance... | *Can be done if we first `ci-use-Model`*
  `[ci-get-Model]+Tab` | ...grab the Data. | *Create the array with the data for the 'loop'*
+ `[ci-isFile-thEx]+Tab` | Check if file exist | *If not, throw exception. Done before load views.*
+ `[ci-data]+Tab` | Creates the $data array | *The strings and arrays to be sent into the Views*
  `[ci-load-Parser]+Tab` | Makes the Parser available | *Captain Obvious striked again.*
  `[ci-load-PView]+Tab` | Renders a 'parsed' View | *Where we echo variables as {title}*
  `[ci-echo-View]+Tab` | Renders a PHP View | *Where we echo variables as <?= $title ?>*
