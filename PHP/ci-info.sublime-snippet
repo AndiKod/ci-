@@ -1,0 +1,38 @@
+<snippet>
+    <content><![CDATA[
+
+  MMMMMMMMMMMMMMMMMMMMMMMWNNWMMMMMMMMMMMMMMMMMMMMMMM  
+  MMMMMMMMMMMMMMMMMMMMMMMNOdkXWMMMMMMMMMMMMMMMMMMMMM
+  MMMMMMMMMMMMMMMMMMMMMMMXxccoONMMMMMMMMMMMMMMMMMMMM   CI- Sublime Snippets for CodeIgniter 4
+  MMMMMMMMMMMMMMMMMMMMMMWOlccclkNMMMMMMMMMMMMMMMMMMM   ====================================== 
+  MMMMMMMMMMMMMMMMMMMMMNOoccccclOWMMMMMMMMMMMMMMMMMM
+  MMMMMMMMMMMMMMMMMMMWXxlcccccccdXMMMMMMMMMMMMMMMMMM    Repo: https://github.com/AndiKod/CI-
+  MMMMMMMMMMMMMMMMMWXkocccccccccoKWMMMMMMMMMMMMMMMMM
+  MMMMMMMMMMMMMMMWKkocccccccccccxXMMMMMMMMMMMMMMMMMM
+  MMMMMMMMMMMMMN0xlcccccccccccclOWMMMMMMMMMMMMMMMMMM
+  MMMMMMMMMMWN0dlccccccccccccccxXMMMMMMMMMMMMMMMMMMM
+  MMMMMMMMWN0dcccccccccccccccclOWMMMMMMMMMMMMMMMMMMM
+  MMMMMMMN0dlccccccccccccccccclOWMMMMMMNXXWMMMMMMMMM
+  MMMMMWKxlcccccccccccccccccccco0NWMMWNkoox0XWMMMMMM
+  MMMMNOoccccccccccccdxlccccccccldkOOkdlccccokXWMMMM
+  MMWXxlccccccccccccxXXklccccccccccccccccccccclkXWMM
+  MWXxccccccccccccco0WMN0xlccccccccccccccccccccco0WM
+  MXxcccccccccccccco0WMMMWK0kdlcccccccccccccccccclOW
+  WOlcccccccccccccccdKWMMMMMWNKOxocccccccccccccccco0
+  Kdccccccccccccccccco0NMMMMMMMMWX0xlccccccccccccccd
+  OlcccccccccccccccccclxKWMMMMMMMMMWXkoccccccccccccl
+  klcccccccccclxOdccccccxXMMMMMMMMMMMWXkoccccccccccl
+  OlccccccccldKNNklcccccxNMMMMMMMMMMMMMW0dccccccccco
+  KoccccccclkXWMMN0xddxOXWMMMMMMMMMMMMMMWKoccccccclk
+  NklccccccxXWMMMMMWWWWMMMMMMMMMMMMMMMMMMNkcccccccxX
+  MXxlcccclOWMMMMMMMMMMMMMMMMMMMMMMMMMMMMWOlcccclkXM
+  MMNklccclOWMMMMMMMMMMMMMMMMMMMMMMMMMMMMNxcccco0NMM
+  MMMW0dlccdXWMMMMMMMMMMMMMMMMMMMMMMMMMMNOlcldOXWMMM
+  MMMMMN0xoldKWMMMMMMMMMMMMMMMMMMMMMMMWXxook0NWMMMMM
+  MMMMMMMWX0kxOXWMMMMMMMMMMMMMMMMMMWNX0OOKNWMMMMMMMM
+  MMMMMMMMMWNK0XWMMMMMMMMMMMMMMMMWNXKXWWMMMMMMMMMMMM
+]]></content>
+    <tabTrigger>ci-info</tabTrigger>
+    <scope>source.php, text.html.basic, text.plain</scope>
+    <description></description>
+</snippet>
