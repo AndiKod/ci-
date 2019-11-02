@@ -27,7 +27,7 @@ When i'll add more snippets, the repo will be proposed as a Sublime Package, but
 
 
 
-CI- here we go...
+ci- here we go...
 --------
 
 **Code** | **Renders** | **Tip**
