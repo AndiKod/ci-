@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+\$model->save([
+    'title' => \$this->request->getVar('title'),
+    'slug'  => url_title(\$this->request->getVar('title')),
+]);
+]]></content>
+	<tabTrigger>ci-crud-save</tabTrigger>
+	<scope>source.php, text.html.basic, text.plain</scope>
+	<description></description>
+</snippet>

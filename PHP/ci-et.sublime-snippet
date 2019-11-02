@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<?= ${1} ?>${0}
+]]></content>
+    <tabTrigger>ci-et</tabTrigger>
+    <scope>source.php, text.html.basic, text.plain</scope>
+    <description>Short Echo</description>
+</snippet>

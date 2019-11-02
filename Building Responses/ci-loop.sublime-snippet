@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<?= \Config\Services::validation()->listErrors(); ?>
+]]></content>
+	<tabTrigger>ci-errors</tabTrigger>
+	<scope>source.php, text.html.basic, text.plain</scope>
+	<description></description>
+</snippet>
