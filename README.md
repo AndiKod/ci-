@@ -10,7 +10,7 @@ CI- SublimeSnippets for CodeIgniter4
 
 
 
-![CI4](https://img.shields.io/badge/CodeIgniter-v4.0.0-rc3-orange)
+![CI4](https://img.shields.io/badge/CodeIgniter-4.0.0--rc3-orange)
 ![CI4](https://img.shields.io/badge/SublimeText-3-orange)
 
 
@@ -150,6 +150,8 @@ database.default.username = root
 database.default.password = root
 database.default.DBDriver = MySQLi
 ```
+
+... that will create a basic news table.
 
 ---
 
