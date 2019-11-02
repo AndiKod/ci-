@@ -51,8 +51,6 @@ CI- CodeIgniter4, here we go...
  `[ci-load-Parser]+Tab` | Makes the Parser available | *Captain Obvious striked again.*
  `[ci-load-PView]+Tab` | Renders a 'parsed' View | *Where we echo variables as {title}*
  `[ci-echo-View]+Tab` | Renders a PHP View | *Where we echo variables as <?= $title ?>*
- --- | **- Some Basics -** | --- 
- `[ci-t]+Tab` | $this-> | *...preaty self explanatory.*
  --- | **- Routing -** | ---
  `[ci-routesGrp]+Tab` | route Group | *Nesting routes that share the same initial segment.*
  `[ci-routes]+Tab` | simple route | *Like the 'about' route, loading the 'About' Controller*
@@ -62,6 +60,14 @@ CI- CodeIgniter4, here we go...
  `[ci-RoutesAlpha]+Tab` | (:alpha) route | *No numbers*
  `[ci-RoutesAlNum]+Tab` | (:alphanum) route | *Letters and/or numbers*
  `[ci-RoutesHash]+Tab` | (:hash) route | *See the Models Docs for the usage*
+ --- | **- Build Responses -** | --- 
+ `[ci-list-errors]+Tab` | Show validation errors | *Often placed right above the Form*
+ `[ci-loop]+Tab` | Looping trough arrays | *That's the PHP version with `foreach` and `/foreach`*
+ `[ci-e]+Tab` | <?= $var ?> | *Echo out a variable sent by the controller within the $data array*
+ `[ci-et]+Tab` | <?=  ?> | *Just the empty 'Echo Tag' in its short version*
+ `[ci-var]+Tab` | $foo['bar'] | *Use that inside `ci-loop` to print the variables from the result*
+ --- | **- Some Basics -** | --- 
+ `[ci-t]+Tab` | $this-> | *...preaty self explanatory.*
  
 
 
