@@ -10,7 +10,7 @@ CI- SublimeSnippets for CodeIgniter4
 
 
 
-![CI4](https://img.shields.io/badge/CodeIgniter-v4-orange)
+![CI4](https://img.shields.io/badge/CodeIgniter-v4.0.0-rc3-orange)
 ![CI4](https://img.shields.io/badge/SublimeText-3-orange)
 
 
@@ -73,7 +73,9 @@ Usual models location: *App/Models/*
 
 
 
-The meaning of the config settings are in the docs at [CI4 Docs> Modeling Data> Using CodeIgniter's Model](https://codeigniter4.github.io/userguide/models/model.html). The exemple function is from the official ["News section" tutorial](https://codeigniter4.github.io/userguide/tutorial/news_section.html).
+The meaning of the config settings are in the docs at [CI4 Docs> Modeling Data> Using CodeIgniter's Model](https://codeigniter4.github.io/userguide/models/model.html). 
+
+The exemple function is from the official ["News section" tutorial](https://codeigniter4.github.io/userguide/tutorial/news_section.html).
 
 #### Tab steps:
 - ${1:App}  : *In case you changed your app namespace.* 
@@ -148,8 +150,6 @@ database.default.username = root
 database.default.password = root
 database.default.DBDriver = MySQLi
 ```
-
-... that will create a basic news table.
 
 ---
 
