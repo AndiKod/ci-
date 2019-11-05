@@ -1,5 +1,14 @@
 
 
+<div align="center">
+
+<img width="248" height="142" src="https://raw.githubusercontent.com/AndiKod/ci-/master/SublimeIgniter.png" alt="SublimeCI">
+	
+	
+</div>	
+	
+  
+  
   ![CI](./SublimeIgniter.png "CI")
 
 
