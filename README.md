@@ -78,8 +78,6 @@ ci- here we go...
 
 ### ``[ci-m]+Tab`` Model File
 
-Snippet file: *CI4-Snippets/ci4-model.sublime-snippet*
-
 Usual models location: *App/Models/*
 
 
@@ -166,9 +164,7 @@ database.default.DBDriver = MySQLi
 
 ---
 
-### ``[ci4-c]+Tab`` Controller File
-
-Snippet file: *CI4-Snippets/ci4-model.sublime-snippet*
+### ``[ci-c]+Tab`` Controller File
 
 Usual controllers location: *App/Controllers/*
 
@@ -210,8 +206,6 @@ class ${2:News} extends Controller
 
 
 ### ``[ci-l]+Tab`` Layouts
-
-Snippet file: *CI4-Snippets/ci4-layout.sublime-snippet*
 
 Usual layouts location: *App/Views/Layouts/*
 
