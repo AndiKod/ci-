@@ -3,8 +3,8 @@
   ![CI](./SublimeIgniter.png "CI")
 
 
-CI- SublimeSnippets for CodeIgniter4
-==================================
+SublimeSnippets for CodeIgniter4
+================================
 
 
 
@@ -13,6 +13,11 @@ CI- SublimeSnippets for CodeIgniter4
 ![CI4](https://img.shields.io/badge/CodeIgniter-4.0.0--rc3-orange)
 ![CI4](https://img.shields.io/badge/SublimeText-3-orange)
 
+
+
+-- A work in progress! --
+-------
+That project was started for my own needs, but some real documentation will follow and the rest of the usefull tags.
 
 
 
@@ -37,7 +42,7 @@ ci- here we go...
  `[ci-l]+Tab` | Layout | *Naked skeleton, to work with the view below*
  `[ci-v]+Tab` | Vue | *Extending the layout above ^^*
  --- | **- inside Controllers -** | ---
- `[ci-hw]+Tab` | HelloWorld Controller | *The most basic controller, as a starting point.* 
+ `[ci-hw]+Tab` | HelloWorld Controller | *The most basic controller, as a starting point.*
  `[ci-pubF]+Tab` | public function | *For the methods within Controllers, and more*
  `[ci-ptcF]+Tab` | protected function | *For the private logic. See Controllers doc.*
  `[ci-tReq]+Tab` | $this->request | *...*
@@ -60,15 +65,15 @@ ci- here we go...
  `[ci-RoutesAlpha]+Tab` | (:alpha) route | *No numbers*
  `[ci-RoutesAlNum]+Tab` | (:alphanum) route | *Letters and/or numbers*
  `[ci-RoutesHash]+Tab` | (:hash) route | *See the Models Docs for the usage*
- --- | **- Build Responses -** | --- 
+ --- | **- Build Responses -** | ---
  `[ci-list-errors]+Tab` | Show validation errors | *Often placed right above the Form*
  `[ci-loop]+Tab` | Looping trough arrays | *That's the PHP version with `foreach` and `/foreach`*
  `[ci-e]+Tab` | <?= $foo ?> | *Echo out a variable sent by the controller within the $data array*
  `[ci-et]+Tab` | <?=  ?> | *Just the empty 'EchoTag' in its short version*
  `[ci-var]+Tab` | $foo['bar'] | *Use that inside `ci-loop` to print the variables from the result*
- --- | **- Some Basics -** | --- 
+ --- | **- Some Basics -** | ---
  `[ci-t]+Tab` | $this-> | *...preaty self explanatory.*
- 
+
 
 
 ### ``[ci-m]+Tab`` Model File
@@ -79,16 +84,16 @@ Usual models location: *App/Models/*
 
 
 
-The meaning of the config settings are in the docs at [CI4 Docs> Modeling Data> Using CodeIgniter's Model](https://codeigniter4.github.io/userguide/models/model.html). 
+The meaning of the config settings are in the docs at [CI4 Docs> Modeling Data> Using CodeIgniter's Model](https://codeigniter4.github.io/userguide/models/model.html).
 
 The exemple function is from the official ["News section" tutorial](https://codeigniter4.github.io/userguide/tutorial/news_section.html).
 
 #### Tab steps:
-- ${1:App}  : *In case you changed your app namespace.* 
+- ${1:App}  : *In case you changed your app namespace.*
 - ${2:News} : The name of your Model file (always uppercase first letter).
 - ${3:news} : The corresponding database table (lowercase).
 - ${4:id}   : *In case you changed the primary_key*
-- ${0}      : The mouse cursor will end here after last tab. 
+- ${0}      : The mouse cursor will end here after last tab.
 
 ```php
 <?php namespace ${1:App}\Models;
@@ -168,17 +173,17 @@ Snippet file: *CI4-Snippets/ci4-model.sublime-snippet*
 Usual controllers location: *App/Controllers/*
 
 
-Keeped (commented) the basic stuff needed to get data from a Model, 
+Keeped (commented) the basic stuff needed to get data from a Model,
 the exemple works with the News model from the official tutorial.
 
 Read the [Controllers Doc](https://codeigniter4.github.io/userguide/incoming/controllers.html) for more details.
 
 #### Tab steps:
-- ${1:App}  : *In case you changed your app namespace.* 
+- ${1:App}  : *In case you changed your app namespace.*
 - ${2:News} : The name of your Controller file (always uppercase first letter).
 - ${3:news} : The corresponding database table (lowercase).
 - ${4:id}   : *In case you changed the primary_key*
-- ${0}      : The mouse cursor will end here after last tab. 
+- ${0}      : The mouse cursor will end here after last tab.
 
 ```php
 <?php namespace ${1:App}\Controllers;
@@ -210,7 +215,7 @@ Snippet file: *CI4-Snippets/ci4-layout.sublime-snippet*
 
 Usual layouts location: *App/Views/Layouts/*
 
-Basically an HTML skeleton with at least one 'section' inside, 
+Basically an HTML skeleton with at least one 'section' inside,
 acting like a placeholder into the views extended from the layout.
 
 ```php

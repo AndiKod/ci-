@@ -1,8 +1,10 @@
 <snippet>
 	<content><![CDATA[
-<?= \Config\Services::validation()->listErrors(); ?>
+<?php foreach (${1:\$foo} as ${2:\$bar}):?>
+    <?= ${2:\$bar} ?>
+<?php endforeach;?>
 ]]></content>
-	<tabTrigger>ci-errors</tabTrigger>
+	<tabTrigger>ci-loop</tabTrigger>
 	<scope>source.php, text.html.basic, text.plain</scope>
 	<description></description>
 </snippet>
