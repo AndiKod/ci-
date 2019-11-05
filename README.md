@@ -15,8 +15,7 @@ SublimeSnippets for CodeIgniter4
 
 
 
--- A work in progress! --
--------
+
 That project was started for my own needs, but some real documentation will follow and the rest of the usefull tags.
 
 
@@ -55,7 +54,7 @@ ci- here we go...
  `[ci-data]+Tab` | Creates the $data array | *The strings and arrays to be sent into the Views*
  `[ci-load-Parser]+Tab` | Makes the Parser available | *Captain Obvious striked again.*
  `[ci-load-PView]+Tab` | Renders a 'parsed' View | *Where we echo variables as {title}*
- `[ci-echo-View]+Tab` | Renders a PHP View | *Where we echo variables as <?= $title ?>*
+ `[ci-echo-View]+Tab` | Renders a PHP View | *Where we echo variables as `<?= $title ?>`*
  --- | **- Routing -** | ---
  `[ci-routesGrp]+Tab` | route Group | *Nesting routes that share the same initial segment.*
  `[ci-routes]+Tab` | simple route | *Like the 'about' route, loading the 'About' Controller*
@@ -68,8 +67,8 @@ ci- here we go...
  --- | **- Build Responses -** | ---
  `[ci-list-errors]+Tab` | Show validation errors | *Often placed right above the Form*
  `[ci-loop]+Tab` | Looping trough arrays | *That's the PHP version with `foreach` and `/foreach`*
- `[ci-e]+Tab` | <?= $foo ?> | *Echo out a variable sent by the controller within the $data array*
- `[ci-et]+Tab` | <?=  ?> | *Just the empty 'EchoTag' in its short version*
+ `[ci-e]+Tab` | `<?= $foo ?>` | *Echo out a variable sent by the controller within the $data array*
+ `[ci-et]+Tab` | `<?= ?>`| *Just the empty 'EchoTag' in its short version*
  `[ci-var]+Tab` | $foo['bar'] | *Use that inside `ci-loop` to print the variables from the result*
  --- | **- Some Basics -** | ---
  `[ci-t]+Tab` | $this-> | *...preaty self explanatory.*
