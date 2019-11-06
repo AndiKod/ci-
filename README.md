@@ -1,13 +1,14 @@
 
 
-  ![CI](./SublimeIgniter.png "CI")
+<div align="center">
 
+<img width="248" height="142" src="https://raw.githubusercontent.com/AndiKod/ci-/master/SublimeIgniter.png" alt="SublimeCI">
 
-SublimeSnippets for CodeIgniter4
-================================
+<br><br>
 
-
-
+<h1>SublimeSnippets for CodeIgniter4</h1>
+	
+</div>	
 
 
 ![CI4](https://img.shields.io/badge/CodeIgniter-4.0.0--rc3-orange)
