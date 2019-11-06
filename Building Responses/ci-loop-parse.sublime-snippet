@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+{${1:foo}}
+    {${2:bar}}
+{\\${1:foo}}
+]]></content>
+	<tabTrigger>ci-pl</tabTrigger>
+	<scope>source.php, text.html.basic, text.plain</scope>
+	<description>Parse Loop</description>
+</snippet>
