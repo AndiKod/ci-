@@ -68,7 +68,7 @@ ci- here we go...
  --- | **- Build Responses -** | ---
  `[ci-list-errors]+Tab` | Show validation errors | *Often placed right above the Form*
  `[ci-loop]+Tab` | Looping trough arrays | *That's the PHP version with `foreach` and `/foreach`*
- `[ci-pl]+Tab` | Parse Loop | *Just a quick `{foo}{bar}{/foo}` to display array elements like news*
+ `[ci-pl]+Tab` | Parsed Loop | *Just a quick `{foo}{bar}{/foo}` to display array elements like news*
  `[ci-e]+Tab` | `<?= $foo ?>` | *Echo out a variable sent by the controller within the $data array*
  `[ci-et]+Tab` | `<?= ?>`| *Just the empty 'EchoTag' in its short version*
  `[ci-var]+Tab` | $foo['bar'] | *Use that inside `ci-loop` to print the variables from the result*
