@@ -41,7 +41,8 @@ ci- here we go...
  `[ci-c]+Tab` | Controller | *With data loading from the model and view rendering*
  `[ci-l]+Tab` | Layout | *Naked skeleton, to work with the view below*
  `[ci-v]+Tab` | Vue | *Extending the layout above ^^*
- --- | **- inside Controllers -** | ---
+ --- | **- Controllers and Routing -** | ---
+ --- | **- inside controllers -** | ---
  `[ci-hw]+Tab` | HelloWorld Controller | *The most basic controller, as a starting point.*
  `[ci-pubF]+Tab` | public function | *For the methods within Controllers, and more*
  `[ci-ptcF]+Tab` | protected function | *For the private logic. See Controllers doc.*
@@ -56,9 +57,9 @@ ci- here we go...
  `[ci-load-Parser]+Tab` | Makes the Parser available | *Captain Obvious striked again.*
  `[ci-load-PView]+Tab` | Renders a 'parsed' View | *Where we echo variables as {title}*
  `[ci-echo-View]+Tab` | Renders a PHP View | *Where we echo variables as `<?= $title ?>`*
- --- | **- More 'Controllers and Routing' stuff -** | ---
+ --- | **- filters -** | ---
  `[ci-filter]+Tab` | Filter file skeleton | *For adding filter 'before' and|or 'after the controller*
- --- | **- Routing -** | ---
+ --- | **- routing -** | ---
  `[ci-routesGrp]+Tab` | route Group | *Nesting routes that share the same initial segment.*
  `[ci-routes]+Tab` | simple route | *Like the 'about' route, loading the 'About' Controller*
  `[ci-routesSeg]+Tab` | (:segment) route | *Great for single posts. Match first segment.*
