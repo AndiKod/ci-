@@ -41,7 +41,7 @@ ci- here we go...
  `[ci-c]+Tab` | Controller | *With data loading from the model and view rendering*
  `[ci-l]+Tab` | Layout | *Naked skeleton, to work with the view below*
  `[ci-v]+Tab` | Vue | *Extending the layout above ^^*
- --- | **- Controllers and Routing -** | ---
+ --- | **- Controllers&Routing -** | ---
  --- | **- inside controllers -** | ---
  `[ci-hw]+Tab` | HelloWorld Controller | *The most basic controller, as a starting point.*
  `[ci-pubF]+Tab` | public function | *For the methods within Controllers, and more*
