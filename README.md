@@ -56,6 +56,8 @@ ci- here we go...
  `[ci-load-Parser]+Tab` | Makes the Parser available | *Captain Obvious striked again.*
  `[ci-load-PView]+Tab` | Renders a 'parsed' View | *Where we echo variables as {title}*
  `[ci-echo-View]+Tab` | Renders a PHP View | *Where we echo variables as `<?= $title ?>`*
+ --- | **- More 'Controllers and Routing' stuff -** | ---
+ `[ci-filter]+Tab` | Filter file skeleton | *For adding filter 'before' and|or 'after the controller*
  --- | **- Routing -** | ---
  `[ci-routesGrp]+Tab` | route Group | *Nesting routes that share the same initial segment.*
  `[ci-routes]+Tab` | simple route | *Like the 'about' route, loading the 'About' Controller*

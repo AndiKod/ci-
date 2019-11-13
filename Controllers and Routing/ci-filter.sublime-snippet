@@ -1,0 +1,27 @@
+<snippet>
+	<content><![CDATA[
+<?php namespace ${1:App}\Filters;
+
+use CodeIgniter\HTTP\RequestInterface;
+use CodeIgniter\HTTP\ResponseInterface;
+use CodeIgniter\Filters\FilterInterface;
+
+class ${2:MyFilter} implements FilterInterface
+{
+    public function before(RequestInterface $request)
+    {
+        ${3:// Do something here}${0}
+    }
+
+    //--------------------------------------------------------------------
+
+    public function after(RequestInterface $request, ResponseInterface $response)
+    {
+        ${4:// Do something here}
+    }
+}
+]]></content>
+	<tabTrigger>ci-filter</tabTrigger>
+	<scope>source.php, text.html.basic, text.plain</scope>
+	<description></description>
+</snippet>
